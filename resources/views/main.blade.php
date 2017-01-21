@@ -8,6 +8,8 @@
 
   <div class="container">
     @yield('content')
+    
+    @include('partials._messages')
 
     @include('partials._footer')
   </div><!-- end of .container -->
