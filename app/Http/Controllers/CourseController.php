@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Course;
 
 class CourseController extends Controller
 {
@@ -45,7 +46,20 @@ class CourseController extends Controller
      */
     public function show($id)
     {
-        //
+        //validate the data
+        $this->validate($request, array(
+          'title' => 'required|max:250',
+          'body' => 'required'
+        ));
+        //store in database
+        $course = new Course;
+
+        $course->title=$request->title;
+        $course->body=$request->body;
+
+        $course->save();
+        //redirect to another page
+        return redirect()->route('courses.show', $course->id);
     }
 
     /**
