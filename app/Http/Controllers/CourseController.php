@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Course;
+use Session;
 
 class CourseController extends Controller
 {
@@ -35,17 +36,6 @@ class CourseController extends Controller
      */
     public function store(Request $request)
     {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
         //validate the data
         $this->validate($request, array(
           'title' => 'required|max:250',
@@ -58,8 +48,20 @@ class CourseController extends Controller
         $course->body=$request->body;
 
         $course->save();
+        Session::flash('success', 'Kursi u shtua me sukses!');
         //redirect to another page
         return redirect()->route('courses.show', $course->id);
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        return view('courses.show');
     }
 
     /**
