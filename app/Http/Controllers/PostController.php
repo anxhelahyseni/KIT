@@ -47,6 +47,7 @@ class PostController extends Controller
         $post->body=$request->body;
 
         $post->save();
+        Session::flash('success', 'Tema u shtua me sukses!');
         //redirect to another page
         return redirect()->route('posts.show', $post->id);
     }
@@ -59,7 +60,7 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('posts.show');
     }
 
     /**
