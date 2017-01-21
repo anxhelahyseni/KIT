@@ -3,6 +3,6 @@
 @section('title', ' | Shiko Postimin')
 
 @section('content')
-  <p class="lead">Ky është postimi i ri, për në forum.</p>
-  
+  <h1>{{ $post->title }}</h1>
+  <p class="lead">{{ $post->body }}</p>
 @endsection
