@@ -3,5 +3,6 @@
 @section('title', ' | Shiko Kursin')
 
 @section('content')
-  <p class="lead">Ky është kursi i ri.</p>
+  <h1>{{ $course->title}}</h1>
+  <p class="lead">{{ $course->body }}</p>
 @endsection
