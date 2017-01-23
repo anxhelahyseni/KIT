@@ -21,6 +21,10 @@
     {
       return view('pages.about');
     }
+    public function getHelp()
+    {
+      return view('pages.help');
+    }
   }
 
 
