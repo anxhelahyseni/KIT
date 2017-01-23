@@ -15,10 +15,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Kryefaqja</a></li>
-        <li><a href="#">Forum</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Kurse <span class="caret"></span></a>
+        <li class="{{ Request::is('/') ? "active" : "" }}"><a href="/">Kryefaqja</a></li>
+        <li class="{{ Request::is('posts') ? "active" : "" }}"><a href="/posts">Forum</a></li>
+        <li class="{{ Request::is('courses') ? "active" : "" }}"><a href="/courses">Kurse</a></li>
+        {{-- <li class="dropdown">
+          <a href="/courses" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Kurse <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">C++</a></li>
             <li><a href="#">Java</a></li>
@@ -27,10 +28,10 @@
             <li role="separator" class="divider"></li>
             <li><a href="#">Laravel</a></li>
           </ul>
-        </li>
-        <li><a href="/about">Rreth Nesh</a></li>
-        <li><a href="/help">Ndihmë</a></li>
-        <li><a href="/contact">Kontakt</a></li>
+        </li> --}}
+        <li class="{{ Request::is('about') ? "active" : "" }}"><a href="/about">Rreth Nesh</a></li>
+        <li class="{{ Request::is('help') ? "active" : "" }}"><a href="/help">Ndihmë</a></li>
+        <li class="{{ Request::is('contact') ? "active" : "" }}"><a href="/contact">Kontakt</a></li>
       </ul>
       <form class="navbar-form navbar-left">
         <div class="form-group">
