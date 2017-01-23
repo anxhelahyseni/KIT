@@ -12,6 +12,7 @@
 */
 Route::resource('posts', 'PostController');
 Route::resource('courses', 'CourseController');
+Route::get('help', 'PagesController@getHelp');
 Route::get('contact', 'PagesController@getContact');
 Route::get('about', 'PagesController@getAbout');
 Route::get('/', 'PagesController@getIndex');
