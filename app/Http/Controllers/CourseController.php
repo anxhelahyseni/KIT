@@ -117,6 +117,9 @@ class CourseController extends Controller
      */
     public function destroy($id)
     {
-        //
+      $course=Course::find($id);
+      $course->delete();
+      Session::flash('success', 'Kursi u fshi me sukses.');
+      return redirect()->route('courses.index');
     }
 }
