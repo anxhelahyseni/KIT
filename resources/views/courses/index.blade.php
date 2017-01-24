@@ -36,6 +36,9 @@
           @endforeach
         </tbody>
       </table>
+      <div class="text-center">
+        {!! $courses->links(); !!}
+      </div>
     </div>
   </div>
 @endsection
