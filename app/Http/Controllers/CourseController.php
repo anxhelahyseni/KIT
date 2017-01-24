@@ -76,7 +76,10 @@ class CourseController extends Controller
      */
     public function edit($id)
     {
-        //
+      // find the course in the database and save as a variable
+      $course =Course::find($id);
+      //return the view and pass in the var we previously saved
+      return view('courses.edit')->withCourse($course);
     }
 
     /**
