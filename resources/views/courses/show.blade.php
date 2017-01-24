@@ -24,7 +24,9 @@
             {!! Html::linkRoute('courses.edit', 'Ndrysho', array($course->id), array('class'=>"btn btn-primary btn-block"))!!}
           </div>
           <div class="col-sm-6">
-            {!!Html::linkRoute('courses.destroy', 'Fshi', array($course->id), array('class'=>"btn btn-danger btn-block"))!!}
+            {!! Form::open(['route'=>['courses.destroy', $course->id], 'method'=>'DELETE']) !!}
+            {!!Form::submit('Fshi', ['class'=>"btn btn-danger btn-block"])!!}
+            {!!Form::close()!!}
           </div>
         </div>
       </div>
