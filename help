@@ -1,0 +1,61 @@
+<html>
+  <h1>Rregullore:</h1>
+  <body>
+     <style>
+      h1 {text-align: center;
+          text-decoration: underline;}
+      div.static {
+          border: 2px solid #73AD21;}  
+      p {    
+          font-size: 16px; }
+     </style>
+
+
+  <div class="static">
+     <p>
+	  <ol><li> Ndalohen postimet me përmbajtje ilegale, postimet e tilla do te fshihen ndërsa postuesit do të përjashtohen nga forumi.</li><br>
+          <li> Ndalohen postimet me qëllim ofendimi, provokimi apo kërcënimi ndaj antarëve tjerë të forumit.</li><br>
+          <li> Ndalohen postimet e shkurtuara dhe të pakuptimta (mundohuni qe ta sqaroni sa më qartë problemin qe keni).</li><br>
+          <li> Tek forumi ndalohet postimi i web faqeve me përmbajtjeve ilegale si :</li><br>
+            <ul>
+             <li>Hacking</li> 
+             <li>Craking</li> 
+             <li>Phishing etj...</li> <br>
+            </ul>
+          <li> Ndalohet Spam rreptësisht.</li><br>
+          <li> Ndalohet Double Post nëse ju jeni postuesi i fundit në ndonjë temë dhe dëshironi të postoni përsëri në të njejtën temë, atëherë editoni postin tuaj në mënyrë që t’iu shmangeni double post.</li><br>
+          <li> Ndalohet ndryshimi i titullit dhe përmbajtjes së temës personale si psh: (mbylle këtë temë, fshije këtë temë etj) kjo rezulton me përjashtim nga forumi.</li><br>
+          <li> Ndryshimi i username-it është i ndaluar.</li><br>
+          <li> Lidhjet (links) duhet patjetër të futen në code përndryshe mund të fshihet i gjithë postimi juaj nga stafi.</li><br>
+          <li> Gjatë kërkesave për zgjidhjen e ndonjë problemi, duhet të shkruani sa më shumë informacione që është e mundur, për të patur më lehtë edhe për t’ju ofruar ndihmë.</li><br>
+     <p>
+	   <b>Note: </b> Stafi i forumit bazohet në rregulloren e mësipërme. Në asnjë rast nuk mund të ndryshohen shkrimet dhe përmbajtja e tyre pa u bazuar në këtë rregullore.</li><br>
+     </p></ol>
+  </div>
+  </p> <br> <br> 
+  
+
+  
+  <p> 
+   <b>Çfarë gjuhe duhet të mësoj?</b><br>
+      Ka gjithmonë shumë për të mësuar kur është fjala për kodim. Si e dini se ku të filloni? Nëse ju duhet të mësoni HTML ose JavaScript? Cili është dallimi në mes Python dhe Ruby? Nga ndryshon "klient-side" dhe "server-side"; "back-end "dhe "front-end"? 
+      Mënyra më e mirë e të mësuarit të kodimit është të ndëmarrësh një projekt apo sfidë dhe pastaj të mësojnë mjetet që ju do të duhet për të ndërtuar atë.
+      Mjetet për Create & Edit Web Pages
+      Nëse jeni të interesuar në krijimin e një website statik apo një faqe të vetme web, ju duhet të filloni me krijimin e një website Course dhe pastaj të mësoni HTML dhe CSS.
+      Mjetet për të bërë Interactive webpages
+      Nëse ju doni të bazoni faqen tuaj tek sjellja, përditësimet automatike Twitter; njoftimet tuaja në Facebook; aftësinë për drag and drop elementet tuaj në profilin e LinkedIn, atëherë ju do të dëshironi të mësoni JavaScript dhe jQuery.
+      Mjetet për të ruajtur informacione mbi përdoruesin në Bazën e të dhënave.
+      Nëse ju doni për të zhvilluar një app full-blown që lejon përdoruesit të hyj në të dhe të ruaj informacion për to, ju do të dëshironi të mësoni backend ose "server-side".<br><br>
+
+  <b>A mund të hyni në kurse KIT offline?</b><br>
+      Për fat të keq ne nuk ofrojnë atë funksion. Kjo sepse ne jemi vazhdimisht duke punuar për të përmirësuar përmbajtjen tonë, mjedisi ynë i të mësuarit duhet të ketë një lidhje aktive në internet në mënyrë që të mund të qëndroj up to date.<br><br>
+
+  <b>A eshte platforma KIT e mbështetur në pajisjet Mobile?</b><br>
+      Produkti ynë nuk është në dispozicion në mobile ose tabletë ende. Meqë pjesa me e madhe e zhvillimit të softuerit bëhet në Desktop, ne kemi vendosur të përqëndrohet produktin tonë atje. Ne mund të shtoni këtë funksion në të ardhmen, por tani për tani platforma jonë funksionon në shfletuesit desktop dhe shfletuesit të veçantë moderne të tilla si Chrome ose Firefox.<br><br>
+
+  <b>A ofron KIT certifikata ne përfundimin e kurseve?</b><br>
+     Ne këtë moment, ne nuk ofrojnë certifikatat n përfundim të kurseve tona. Ne besojmë se një mënyrë e madhe për të demonstruar aftësitë në një kurs të ri është duke ndërtuar një portofol të punës tuaj.<br>
+ </p>
+
+ </body>
+</html>
