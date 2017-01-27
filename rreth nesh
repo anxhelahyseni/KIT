@@ -1,17 +1,56 @@
 <html>
-<body>
-<title>Rreth kit</title><br>
-<p>KIT është një faqe në fushën e edukimit. Ne jemi të angazhuar për të ndërtuar përvojën më të mirë të të mësuarit inside & out, 
-duke bërë KIT ekipin më të mirë për të mësuar dhe për të krijuar përvojën inovatore të së ardhmes.
-Sistemi arsimor është i vjetër, sistemi aktual shkollor publik në Shqipëri daton në shekullin e 19-të dhe nuk është i përshtatshëm për këtë periudhë. 
-Shumë kompani janë duke punuar për të "prishur" këtë sistem duke ndryshuar mënyrën e të punuarit në klasë dhe duke sjellur klasat online.
-</p><br>
-<title>Misioni ynë</title><br>
-<p>Ne jemi një nga ato kompani që arsimin e shohin që në themele.
- Web ka rimenduar pothuajse çdo gjë - tregti, rrjete sociale, kujdes shëndetësor dhe më shumë. 
- Ne po ndërtojmë arsimin që ka nevojë vendi ynë. Këtë gjë duam ta arrijmë nëpërmjet KIT. Ku të gjithë kemi akses dhe të krijojmë një përvojë sa më të mirë.
-
-Arsimimi është thyer. Ejani të na ndihmoni të ndërtojmë arsimin që Shqipëria meriton.
-</p><br>
-</body>
+ <body><br><br>
+ <h1><i>"Edukimi është arma më e fuqishme për të ndryshuar botën"</i></h1><br><br>
+    <style>
+      h1{text-align: center;}
+      td {
+      padding: 10px;
+      text-align: center;
+	  font-size: 20x; }
+	  p{text-align: right;
+	    font-family: inherit;}
+   </style>
+   
+ <table>
+   <p><td> <b><big>- Misioni ynë-</b></big></td>
+   <tr>
+     <td>Ne jemi një nga ato kompani që arsimin e shohin që në themele.
+         Web ka rimenduar pothuajse çdo gjë - tregti, rrjete sociale, kujdes shëndetësor dhe më shumë. 
+         Ne po ndërtojmë arsimin që ka nevojë vendi ynë. Këtë gjë duam ta arrijmë nëpërmjet KIT. Ku të gjithë kemi akses dhe të krijojmë një përvojë sa më të mirë.
+         Arsimimi është thyer. Ejani të na ndihmoni të ndërtojmë arsimin që Shqipëria meriton.</td>
+   </tr>
+   <tr>
+     <td><b><big>Rreth KIT</b></big></td> 
+   </tr>
+   <tr>
+     <td>KIT është një faqe në fushën e edukimit. Ne jemi të angazhuar për të ndërtuar përvojën më të mirë të të mësuarit inside&out, 
+         duke bërë KIT ekipin më të mirë për të mësuar dhe për të krijuar përvojën inovatore të së ardhmes.
+         Sistemi arsimor është i vjetër, sistemi aktual shkollor publik në Shqipëri daton në shekullin e 19-të dhe nuk është i përshtatshëm për këtë periudhë. 
+         Shumë kompani janë duke punuar për të "prishur" këtë sistem duke ndryshuar mënyrën e të punuarit në klasë dhe duke sjellur klasat online.</td>
+   </tr>  
+  </p></table> <br><hr><br><br>
+  
+  <style>
+      p{text-align: center;
+	    font-size: 20x;}
+      td {
+      padding: 50px;
+      text-align: center;
+	  font-size: 20x; }
+   </style>
+ <p><b><big>Our team</b></big></p>
+ <div align="center" style="vertical-align:bottom">
+ <table> 
+ <tr>
+    <td><img src="anxhela.jpg" alt="HTML Icon" style="width:140px; height:140px;"><br>Anxhela Hyseni</td>
+    <td><img src="ajkuna.jpg" alt="HTML Icon" style="width:140px; height:140px;"><br>Ajkuna Mujo</td>
+     <td><img src="ajkuna.jpg" alt="HTML Icon" style="width:140px; height:140px;"><br>Ada Shehu</td>
+    <td><img src="ajkuna.jpg" alt="HTML Icon" style="width:140px; height:140px;"><br>Albina Ymeri</td>
+  </tr>
+ </table>
+ </div>
+ 
+ 
+  
+ </body>
 </html>
