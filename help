@@ -1,18 +1,15 @@
 <html>
-  <h1>Rregullore:</h1>
+  <h1>Rregullore</h1>
   <body>
      <style>
-      h1 {text-align: center;
-          text-decoration: underline;}
-      div.static {
-          border: 2px solid #73AD21;}  
-      p {    
-          font-size: 16px; }
+      h1 {text-align: center;}
+      div.static {border: 2px solid #73AD21;}  
+      p {font-size: 16px; }
      </style>
 
 
   <div class="static">
-     <p>
+     <p background-color: green;>
 	  <ol><li> Ndalohen postimet me përmbajtje ilegale, postimet e tilla do te fshihen ndërsa postuesit do të përjashtohen nga forumi.</li><br>
           <li> Ndalohen postimet me qëllim ofendimi, provokimi apo kërcënimi ndaj antarëve tjerë të forumit.</li><br>
           <li> Ndalohen postimet e shkurtuara dhe të pakuptimta (mundohuni qe ta sqaroni sa më qartë problemin qe keni).</li><br>
@@ -28,33 +25,34 @@
           <li> Ndryshimi i username-it është i ndaluar.</li><br>
           <li> Lidhjet (links) duhet patjetër të futen në code përndryshe mund të fshihet i gjithë postimi juaj nga stafi.</li><br>
           <li> Gjatë kërkesave për zgjidhjen e ndonjë problemi, duhet të shkruani sa më shumë informacione që është e mundur, për të patur më lehtë edhe për t’ju ofruar ndihmë.</li><br>
-     <p>
-	   <b>Note: </b> Stafi i forumit bazohet në rregulloren e mësipërme. Në asnjë rast nuk mund të ndryshohen shkrimet dhe përmbajtja e tyre pa u bazuar në këtë rregullore.</li><br>
-     </p></ol>
+    
+	
+	<p ><img src="data:image/png;base64,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" alt="HTML5 Icon" style="width:14px;height:14px;">
+    <b style="color:Red;"> Note: </b> Stafi i forumit bazohet në rregulloren e mësipërme. Në asnjë rast nuk mund të ndryshohen shkrimet dhe përmbajtja e tyre pa u bazuar në këtë rregullore.</li><br>
+   </p></ol>
   </div>
   </p> <br> <br> 
   
-
   
   <p> 
-   <b>Çfarë gjuhe duhet të mësoj?</b><br>
-      Ka gjithmonë shumë për të mësuar kur është fjala për kodim. Si e dini se ku të filloni? Nëse ju duhet të mësoni HTML ose JavaScript? Cili është dallimi në mes Python dhe Ruby? Nga ndryshon "klient-side" dhe "server-side"; "back-end "dhe "front-end"? 
-      Mënyra më e mirë e të mësuarit të kodimit është të ndëmarrësh një projekt apo sfidë dhe pastaj të mësojnë mjetet që ju do të duhet për të ndërtuar atë.
-      Mjetet për Create & Edit Web Pages
-      Nëse jeni të interesuar në krijimin e një website statik apo një faqe të vetme web, ju duhet të filloni me krijimin e një website Course dhe pastaj të mësoni HTML dhe CSS.
-      Mjetet për të bërë Interactive webpages
-      Nëse ju doni të bazoni faqen tuaj tek sjellja, përditësimet automatike Twitter; njoftimet tuaja në Facebook; aftësinë për drag and drop elementet tuaj në profilin e LinkedIn, atëherë ju do të dëshironi të mësoni JavaScript dhe jQuery.
-      Mjetet për të ruajtur informacione mbi përdoruesin në Bazën e të dhënave.
-      Nëse ju doni për të zhvilluar një app full-blown që lejon përdoruesit të hyj në të dhe të ruaj informacion për to, ju do të dëshironi të mësoni backend ose "server-side".<br><br>
+   <b><big>Çfarë gjuhe duhet të mësoj?</big></b>
+      <p style="margin-left: 15px;">  Ka gjithmonë shumë për të mësuar kur është fjala për kodim. Si e dini se ku të filloni? Nëse ju duhet të mësoni HTML ose JavaScript? Cili është dallimi në mes Python dhe Ruby? Nga ndryshon "klient-side" dhe "server-side"; "back-end "dhe "front-end"? 
+      Mënyra më e mirë e të mësuarit të kodimit është të ndëmarrësh një projekt apo sfidë dhe pastaj të mësojnë mjetet që ju do të duhet për të ndërtuar atë.<br>
+      <i>* Mjetet për Create & Edit Web Pages</i><br>
+      Nëse jeni të interesuar në krijimin e një website statik apo një faqe të vetme web, ju duhet të filloni me krijimin e një website Course dhe pastaj të mësoni HTML dhe CSS.<br>
+      <i>* Mjetet për të bërë Interactive webpages</i><br>
+      Nëse ju doni të bazoni faqen tuaj tek sjellja, përditësimet automatike Twitter; njoftimet tuaja në Facebook; aftësinë për drag and drop elementet tuaj në profilin e LinkedIn, atëherë ju do të dëshironi të mësoni JavaScript dhe jQuery.<br>
+     <i>* Mjetet për të ruajtur informacione mbi përdoruesin në Bazën e të dhënave.</i><br>
+      Nëse ju doni për të zhvilluar një app full-blown që lejon përdoruesit të hyj në të dhe të ruaj informacion për to, ju do të dëshironi të mësoni backend ose "server-side".</p><br><br>
 
-  <b>A mund të hyni në kurse KIT offline?</b><br>
-      Për fat të keq ne nuk ofrojnë atë funksion. Kjo sepse ne jemi vazhdimisht duke punuar për të përmirësuar përmbajtjen tonë, mjedisi ynë i të mësuarit duhet të ketë një lidhje aktive në internet në mënyrë që të mund të qëndroj up to date.<br><br>
+  <b><big>A mund të hyni në kurse KIT offline?</big></b><br>
+      <p style="margin-left: 15px;"> Për fat të keq ne nuk ofrojnë atë funksion. Kjo sepse ne jemi vazhdimisht duke punuar për të përmirësuar përmbajtjen tonë, mjedisi ynë i të mësuarit duhet të ketë një lidhje aktive në internet në mënyrë që të mund të qëndroj up to date.</p><br><br>
 
-  <b>A eshte platforma KIT e mbështetur në pajisjet Mobile?</b><br>
-      Produkti ynë nuk është në dispozicion në mobile ose tabletë ende. Meqë pjesa me e madhe e zhvillimit të softuerit bëhet në Desktop, ne kemi vendosur të përqëndrohet produktin tonë atje. Ne mund të shtoni këtë funksion në të ardhmen, por tani për tani platforma jonë funksionon në shfletuesit desktop dhe shfletuesit të veçantë moderne të tilla si Chrome ose Firefox.<br><br>
+  <b><big>A është platforma KIT e mbështetur në pajisjet Mobile?</big></b><br>
+       <p style="margin-left: 15px;">Produkti ynë nuk është në dispozicion në mobile ose tabletë ende. Meqë pjesa me e madhe e zhvillimit të softuerit bëhet në Desktop, ne kemi vendosur që produktin ynë të përqëndrohet atje. Ne mund të shtoni këtë funksion në të ardhmen, por tani për tani platforma jonë funksionon në shfletuesit desktop dhe shfletuesit të veçantë moderne të tilla si Chrome ose Firefox.</p><br><br>
 
-  <b>A ofron KIT certifikata ne përfundimin e kurseve?</b><br>
-     Ne këtë moment, ne nuk ofrojnë certifikatat n përfundim të kurseve tona. Ne besojmë se një mënyrë e madhe për të demonstruar aftësitë në një kurs të ri është duke ndërtuar një portofol të punës tuaj.<br>
+  <b><big>A ofron KIT certifikata ne përfundimin e kurseve?</big></b><br>
+      <p style="margin-left: 15px;">Në këtë moment, ne nuk ofrojnë certifikata në përfundim të kurseve tona. Ne besojmë se një mënyrë e madhe për të demonstruar aftësitë në një kurs të ri është duke ndërtuar një portofol të punës tuaj.</p><br>
  </p>
 
  </body>
