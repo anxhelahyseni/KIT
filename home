@@ -20,9 +20,9 @@
  
   <h1 style="font-size: 45px; font weight:500px; font-family: Gabriola; text-align:center; margin-left: 450px; margin-top:250px;"><b><big>Mirësevini në KIT!</b></big></h1>
   <body>
-      <p style="font-size: 18px; text-align:center; margin-left: 450px;">KIT është një site me qëllime edukuese. I angazhuar<br> për të 
-	                 ndërtuar përvojën më të mirë të të mësuarit inside&out, duke bërë KIT ekipin më të mirë<br>
-	                 për të mësuar dhe për të krijuar përvojën inovatore të së ardhmes.</p>
+      <p style="font-size: 18px; text-align:center; margin-left: 450px;">KIT është një site me qëllime edukuese. Pranë nesh shpresojmë <br>
+	                                                      të gjeni mundesinë të bëheni më të mirë, e pse jo edhe të gjeni frymëzimin që kërkoni. <br>
+														       Ne jemi të angazhuar për të ndërtuar përvojën më të mirë të të mësuarit.</p>
       <button type="button"><i>Për më shumë info</i></button>
   </body>
 </html>
